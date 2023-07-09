@@ -65,7 +65,9 @@ class NavigationItem extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(icon,color:  isActive ? AppColors.white : AppColors.darkGrey),
+            Image.asset(icon,color:  isActive ? AppColors.white : AppColors.darkGrey,
+            height: 16,width: 16,
+            ),
           // Icon(Icons.abc,
           //     color: isActive ? AppColors.white : AppColors.darkGrey),
           const SizedBox(height: 5),

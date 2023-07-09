@@ -11,7 +11,9 @@ class GenreWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(children: [
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
       const Heading(heading: 'Genres'),
       14.spaceY,
       Wrap(

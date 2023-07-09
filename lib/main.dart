@@ -30,7 +30,8 @@ class MyApp extends StatelessWidget {
       locals.add(Locale(language.languageCode, language.countryCode));
     }
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Ten Demo',
+      debugShowCheckedModeBanner: false,
       // theme: ThemeData(primarySwatch: Colors.blue),
       navigatorKey: navigatorKey,
       onGenerateRoute: RouteGenerator.generateRoute,
