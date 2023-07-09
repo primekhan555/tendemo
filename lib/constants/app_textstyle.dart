@@ -26,7 +26,7 @@ class AppTextstyle {
           TextDecoration decoration = TextDecoration.none,
           double letterSpacing = 0}) =>
        TextStyle(
-          // fontFamily: 'Manrope',
+          fontFamily: 'poppin',
           letterSpacing: letterSpacing,
           fontWeight: fontWeight,
           fontSize: fontSize,
