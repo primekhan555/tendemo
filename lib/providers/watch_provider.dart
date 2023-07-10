@@ -14,7 +14,7 @@ class WatchProvider extends ChangeNotifier with BaseRepo {
   AppBarState get appBarState => _appBarState;
   final TextEditingController _searchController = TextEditingController();
   TextEditingController get searchController => _searchController;
-  List get filtered => _upComingList
+  List<Results> get filtered => _upComingList
       .where((element) => (element.title ?? '')
           .toLowerCase()
           .contains(_searchController.text.toLowerCase()))
